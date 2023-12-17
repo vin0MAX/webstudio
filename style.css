@@ -1,47 +1,11 @@
-
-nav ul li a {
-    color: black; 
-}
-nav a[href="index.html"]{
-    color: #2196F3;
-}
-.link-email{
-    color: #2196F3;
-}
-a[href="tel:+380961111111"]{
-    color: #757575;
-}
-header a{
-    color: #000;
-}
-span{
-    color: #2196F3;
-}
-main section button{
-    background: #2196F3;
-    color: #FFF;
-}
-.hero{
-    background: #2F303A;
-}
-.hero-title{
-   color:#FFF; 
-}
-section ul li p{
-    color:#757575;
-}
-.team{
-    background: #F5F4FA;
-}
-footer{
-    background: #2F303A;
-}
-a[href="#"]{
-    color: #F5F4FA;
-}
-.link{
-    color: #757575;
-}
-footer a{
-    color: #FFF;
-}
+:root {
+    --main-color: #757575;
+    --secondary-color: #2F303A;
+    --accent-color:#2196F3;
+    --text-color: #212121;
+    --bg-color: #FFF; 
+    --link-color: #000; 
+    --hover-color:#F5F4FA ;
+    --border-color: color: rgba(255, 255, 255, 0.60);; 
+  }
+  
