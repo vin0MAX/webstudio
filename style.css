@@ -1,5 +1,5 @@
 :root {
-    --main-color: #757575;
+    --text-heder: #757575;
     --secondary-color: #2F303A;
     --accent-color:#2196F3;
     --text-color: #212121;
@@ -8,4 +8,107 @@
     --hover-color:#F5F4FA ;
     --border-color: color: rgba(255, 255, 255, 0.60);; 
   }
-  
+  body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+  }
+  .logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .navigavion-link{
+    letter-spacing: 0.28px;
+    font-weight: 500;
+    color: var(--text-color);
+  }
+  .navigavion-link:hover,
+  .navigavion-link:focus{
+    color: var(--accent-color);
+  }
+  .contakts-link{
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    color: var(--text-heder);
+  }
+  .contakts-link:hover,
+  .contakts-link:focus{
+    color: var(--accent-color);
+  }
+  .post{
+    background-color: var(--secondary-color);
+  }
+  .post-title{
+    color: var(--bg-color);
+   text-align: center;
+   font-size: 44px;
+   font-weight: 900;
+   line-height: 136%;
+   letter-spacing: 2.64px;
+   text-transform: uppercase;
+  }
+  .post-button{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 178.5%;
+    letter-spacing: 0.96px;
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    cursor: pointer;
+  }
+  .denefits-list{
+    list-style: none;
+  }
+  .denefits-title{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    color: var(--text-color);
+  }
+  .denefits-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 171.429%; 
+    letter-spacing: 0.42px;
+    color: var(--text-heder);
+  }
+  .title{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    text-align: center;
+    color: var(--text-color);
+  }
+  .team-name{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+    text-align: center;
+    color: var(--text-color);
+  }
+  .team-position{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    text-align: center;
+    color: var(--text-heder);
+  }
+  .address-name{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    color: var(--bg-color);
+  }
+  .footer{
+    background-color: var(--secondary-color);
+  }
+  .address-link{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.42px;
+    color: var(--border-color);
+  }
