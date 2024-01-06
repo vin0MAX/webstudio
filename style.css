@@ -16,6 +16,7 @@
   .logo{
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
+    letter-spacing: 0.78px;
     font-weight: 700;
   }
   .navigavion-link{
@@ -45,7 +46,7 @@
    font-size: 44px;
    font-weight: 900;
    line-height: 136%;
-   letter-spacing: 2.64px;
+   letter-spacing: 0.48px;
    text-transform: uppercase;
   }
   .post-button{
@@ -59,6 +60,7 @@
   }
   .denefits-list{
     list-style: none;
+    letter-spacing: 0.42px;
   }
   .denefits-title{
     font-size: 14px;
@@ -71,35 +73,31 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 171.429%; 
-    letter-spacing: 0.42px;
     color: var(--text-heder);
   }
   .title{
     font-size: 36px;
-    font-weight: 700;
     letter-spacing: 1.08px;
-    text-align: center;
+    font-weight: 700;
     color: var(--text-color);
   }
   .team-name{
     font-size: 16px;
-    font-weight: 500;
     letter-spacing: 0.48px;
-    text-align: center;
+    font-weight: 500;
     color: var(--text-color);
   }
   .team-position{
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.48px;
-    text-align: center;
     color: var(--text-heder);
   }
   .address-name{
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
     letter-spacing: 0.42px;
+    line-height: 24px;
     color: var(--bg-color);
   }
   .footer{
