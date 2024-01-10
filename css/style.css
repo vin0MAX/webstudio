@@ -12,7 +12,8 @@
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400px;
-  }
+    padding: 0 15px;
+}
   .logo{
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
@@ -59,7 +60,6 @@
     cursor: pointer;
   }
   .denefits-list{
-    list-style: none;
     letter-spacing: 0.42px;
   }
   .denefits-title{
