@@ -45,6 +45,8 @@
   }
   .post{
     background-color: var(--secondary-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
   .post-title{
     color: var(--bg-color);
@@ -63,6 +65,10 @@
     background-color: var(--accent-color);
     color: var(--bg-color);
     cursor: pointer;
+  }
+  .denefits{
+    padding-top: 94px;
+    padding-bottom: 94px; 
   }
   .denefits-list{
     letter-spacing: 0.42px;
@@ -86,6 +92,13 @@
     font-weight: 700;
     color: var(--text-color);
   }
+  .work{
+    padding-bottom: 94px;
+  }
+  .team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
   .team-name{
     font-size: 16px;
     letter-spacing: 0.48px;
@@ -107,6 +120,8 @@
   }
   .footer{
     background-color: var(--secondary-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .address-link{
     font-size: 14px;
@@ -114,4 +129,12 @@
     line-height: 24px; 
     letter-spacing: 0.42px;
     color: var(--border-color);
+  }
+  .header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+  .portfolio{
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
