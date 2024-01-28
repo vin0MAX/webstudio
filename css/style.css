@@ -6,7 +6,7 @@
     --bg-color: #FFF; 
     --link-color: #000; 
     --hover-color:#F5F4FA ;
-    --border-color: color: rgba(255, 255, 255, 0.60);; 
+    --border-color: rgba(255, 255, 255, 0.60); 
   }
   .container{
     width: 1200px;
@@ -24,6 +24,20 @@
     font-size: 24px;
     letter-spacing: 0.78px;
     font-weight: 700;
+    color: var(--link-color);
+  }
+  .logo-nav{
+    color: var(--accent-color);
+  }
+  .logo-footer{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    letter-spacing: 0.78px;
+    font-weight: 700;
+    color:var(--bg-color);
+  }
+  .logo-span{
+     color: var(--accent-color);
   }
   .navigavion-link{
     letter-spacing: 0.28px;
@@ -59,12 +73,23 @@
   }
   .post-button{
     font-size: 16px;
+    width: 216px;
+    height: 50px;
+    margin-top: 30px ;
     font-weight: 700;
     line-height: 178.5%;
     letter-spacing: 0.96px;
     background-color: var(--accent-color);
     color: var(--bg-color);
+    border-radius: 4px;
+    border-color: var(--accent-color);
     cursor: pointer;
+  }
+  .main-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
   }
   .denefits{
     padding-top: 94px;
@@ -89,6 +114,7 @@
   .title{
     font-size: 36px;
     letter-spacing: 1.08px;
+    margin-bottom: 50px;
     font-weight: 700;
     color: var(--text-color);
   }
@@ -137,4 +163,62 @@
   .portfolio{
     padding-top: 94px;
     padding-bottom: 94px;
+  }
+  .navigation-list{
+    display: flex;
+  }
+  .navigation-item{
+    margin-right: 50px;
+  }
+  .contakts{
+    display: flex;
+  }
+  .contakts-item{
+    margin-left: 50px;
+  }
+  .header-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navigation{
+    display: flex;
+    align-items: center;
+  }
+  .logo{
+    margin-right: 93px;
+  }
+  .denefits-list{
+    display: flex;
+    justify-content: space-between;
+  }
+  .denefits-item{
+    width: 270px;
+  }
+  .work-list{
+    display: flex;
+    justify-content: space-between;
+  }
+  .work-item{
+    width: 370px;
+  }
+  .team-list{
+    display: flex;
+    justify-content: space-between;
+  }
+  .team-img{
+    width: 270px;
+  }
+  .address{
+    display: flex;
+    flex-direction: column;
+  }
+  .address-link{
+    margin-top: 10px;
+  }
+  .address-name{
+    margin-top: 20px;
+  }
+  .title{
+    text-align: center;
   }
