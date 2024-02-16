@@ -124,6 +124,7 @@
     text-transform: uppercase;
     color: var(--text-color);
   }
+  
   .filter{
     display: flex;
     justify-content: center;
