@@ -167,8 +167,10 @@
   margin-bottom: 30px;
   height: 120px;
   background-size: contain;
-  background-color: #000;
-  background-image: url("/img/Group2.png");
+  background-color: var(--hover-color);
+  background-size: 80px;
+  background-position: center;
+  background-image: url("/img/clock 1.png");
 }
 .denefits-title::before{
   content: '';
