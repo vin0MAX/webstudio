@@ -118,6 +118,7 @@
   }
   .denefits-title{
     font-size: 14px;
+    margin-bottom: 10px;
     font-weight: 700;
     letter-spacing: 0.42px;
     text-transform: uppercase;
@@ -157,6 +158,47 @@
   justify-content: center;
   gap: 30px;
 }
+.denefits-title.wrap::before{
+  content: '';
+  display: block;
+  background-repeat: no-repeat;
+  width: 270px;
+  margin-bottom: 30px;
+  height: 120px;
+  background-size: contain;
+  background-image: url("/img/Group2.png");
+}
+.denefits-title::before{
+  content: '';
+  display: block;
+  background-repeat: no-repeat;
+  width: 270px;
+  margin-bottom: 30px;
+  height: 120px;
+  background-size: contain;
+  background-image: url("/img/Group1.png");
+
+}
+.denefits-title.row::before{
+  content: '';
+  display: block;
+  background-repeat: no-repeat;
+  width: 270px;
+  margin-bottom: 30px;
+  height: 120px;
+  background-size: contain;
+  background-image: url("/img/Group3.png");
+}
+.denefits-title.col::before{
+  content: '';
+  display: block;
+  background-repeat: no-repeat;
+  width: 270px;
+  margin-bottom: 30px;
+  height: 120px;
+  background-size: contain;
+  background-image: url("/img/Group4.png");
+}
 .portfolio-item{
   flex-basis: calc((100% - 100px) / 3);
   border: 1px solid #eee;
@@ -174,16 +216,26 @@
   .team{
     padding-top: 94px;
     padding-bottom: 94px;
+    background-color: var(--hover-color);
+  }
+  .team-wrap{
+    background-color: var(--bg-color);
   }
   .team-name{
     font-size: 16px;
     letter-spacing: 0.48px;
+    padding-top: 30px;
+    margin-top: -3px;
+    text-align: center;
     font-weight: 500;
     color: var(--text-color);
   }
   .team-position{
     font-size: 16px;
     font-weight: 400;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
     letter-spacing: 0.48px;
     color: var(--text-heder);
   }
