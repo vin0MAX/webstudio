@@ -167,6 +167,7 @@
   margin-bottom: 30px;
   height: 120px;
   background-size: contain;
+  background-color: #000;
   background-image: url("/img/Group2.png");
 }
 .denefits-title::before{
