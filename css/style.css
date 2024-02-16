@@ -169,8 +169,9 @@
   background-size: cover;
   background-color: var(--hover-color);
   background-size: 80px;
+  border-radius: 3px;
   background-position: center;
-  background-image: url("/img/clock1.png");
+  background-image: url("/img/clock.png");
 }
 .denefits-title::before{
   content: '';
@@ -179,8 +180,12 @@
   width: 270px;
   margin-bottom: 30px;
   height: 120px;
-  background-size: contain;
-  background-image: url("/img/Group1.png");
+  background-size: cover;
+  background-color: var(--hover-color);
+  background-size: 80px;
+  border-radius: 3px;
+  background-position: center;
+  background-image: url("/img/antenna.png");
 
 }
 .denefits-title.row::before{
@@ -190,8 +195,12 @@
   width: 270px;
   margin-bottom: 30px;
   height: 120px;
-  background-size: contain;
-  background-image: url("/img/Group3.png");
+  background-size: cover;
+  background-color: var(--hover-color);
+  background-size: 80px;
+  border-radius: 3px;
+  background-position: center;
+  background-image: url("/img/diagram.png");
 }
 .denefits-title.col::before{
   content: '';
@@ -201,7 +210,11 @@
   margin-bottom: 30px;
   height: 120px;
   background-size: contain;
-  background-image: url("/img/Group4.png");
+  background-color: var(--hover-color);
+  background-size: 80px;
+  border-radius: 3px;
+  background-position: center;
+  background-image: url("/img/astronaut.png");
 }
 .portfolio-item{
   flex-basis: calc((100% - 100px) / 3);
