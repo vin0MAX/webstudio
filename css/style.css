@@ -169,7 +169,7 @@
   background-size: cover;
   background-color: var(--hover-color);
   background-size: 70px;
-  border-radius: 3px;
+  border-radius: 4px;
   background-position: center;
 }
 .denefits-item:nth-child(1)::before{
