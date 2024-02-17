@@ -209,7 +209,7 @@
   width: 270px;
   margin-bottom: 30px;
   height: 120px;
-  background-size: contain;
+  background-size: cover;
   background-color: var(--hover-color);
   background-size: 80px;
   border-radius: 3px;
