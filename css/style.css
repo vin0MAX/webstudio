@@ -86,6 +86,9 @@
     border-color: var(--accent-color);
     cursor: pointer;
   }
+  .post-button:hover{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  }
   .main-wrap{
     display: flex;
     flex-direction: column;
@@ -145,6 +148,9 @@
   .filter-button:hover{
     background-color: var(--accent-color);
     color: var(--bg-color);
+    border-radius: 4px;
+    border-color: #2196F3;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
   }
 
   .denefits-text{
@@ -188,6 +194,9 @@
   flex-basis: calc((100% - 100px) / 3);
   border: 1px solid #eee;
 }
+.portfolio-item:hover{
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
   .title{
     font-size: 36px;
     letter-spacing: 1.08px;
@@ -205,6 +214,7 @@
   }
   .team-wrap{
     background-color: var(--bg-color);
+    border-radius: 0 0 4px 4px;
   }
   .team-name{
     font-size: 16px;
@@ -214,6 +224,10 @@
     text-align: center;
     font-weight: 500;
     color: var(--text-color);
+  }
+  .team-item{
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 0 0 4px 4px;
   }
   .team-position{
     font-size: 16px;
@@ -243,10 +257,12 @@
     letter-spacing: 0.42px;
     color: var(--border-color);
   }
+
   .header{
     padding-top: 24px;
     padding-bottom: 25px;
   }
+  
   .portfolio{
     padding-top: 94px;
     padding-bottom: 94px;
