@@ -61,6 +61,7 @@
     background-color: var(--secondary-color);
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: url("../img/bg.jpg");
   }
   .post-title{
     color: var(--bg-color);
