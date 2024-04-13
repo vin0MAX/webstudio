@@ -350,6 +350,7 @@
   .address{
     display: flex;
     flex-direction: column;
+    text-align: left;
   }
   .address-link{
     margin-top: 10px;
@@ -367,6 +368,7 @@
     justify-content: space-between;
     padding-bottom: 94px;
   }
+  
   .client-link{
     display: flex;
     justify-content: center;
@@ -393,15 +395,20 @@
     fill: var(--accent-color);
     border-color: var(--accent-color);
   }
-  .client-link:hover{
-  }
   /* social */
   .social-list{
     display: flex;
-    align-items: center;
-    
+    justify-content: center;
+    align-items: center;    
   }
-  .social-item{
+  .e{
+    align-items: center;
+  }
+  .footer-wrap{
+    display: flex;
+    align-items: cente;
+  }
+  .social-link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -410,7 +417,6 @@
     width: 44px;
     background-color:rgba(255, 255, 255, 0.1); ;
   }
-
   .social-svg{
     width: 20px;
     height: 20px;
