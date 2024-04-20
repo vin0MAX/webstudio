@@ -296,7 +296,7 @@
     padding-top: 24px;
     padding-bottom: 25px;
   }
-  
+
   .portfolio{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -339,6 +339,20 @@
   }
   .work-item{
     width: 370px;
+  }
+  .work-text{
+    padding-top:27px;
+    padding-bottom: 27px;
+    position: relative;
+    bottom: 74px;
+    font-weight: 700;
+    background: rgba(47, 48, 58, 0.8);
+    font-size: 14px;
+    color: var(--bg-color);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+
   }
   .team-list{
     display: flex;
