@@ -18,13 +18,13 @@
           <a class="logo" href="index.html"><span class="logo-nav">Web</span>Studio</a>
            <ul class="navigation-list"> 
             <li class="navigation-item">
-               <a class="navigavion-link current " href="index.html">Студія</a> 
+               <a class="navigavion-link" href="index.html">Студія</a> 
             </li> 
             <li class="navigation-item"> 
-               <a class="navigavion-link" href="portfolio.html">Портфоліо</a> 
+               <a class="navigavion-link current" href="portfolio.html">Портфоліо</a> 
             </li> 
             <li class="navigation-item"> 
-               <a class="navigavion-link" href="portfolio.html">Контакти</a> 
+               <a class="navigavion-link" href="#footer">Контакти</a> 
             </li>
           </ul> 
         </nav>
@@ -180,7 +180,7 @@
             </div>
             </section>
      </main>
-     <footer class="footer"> 
+     <footer id="footer" class="footer"> 
         <div class="container footer-wrap"> 
           <div class="address"> 
             <a class="logo-footer" href="index.html"><span class="logo-span">Web</span>Studio</a> 
@@ -233,6 +233,20 @@
               </li> 
             </ul> 
           </div> 
+          <ul class="subscribe-list">
+            <p class="subscribe-text">Підпишіться на розсилку</p>
+            <li class="subscribe-item">
+            <div style="display: flex;">
+            <input class="subscribe-input" maxlength="15" minlength="7" type="email" placeholder="E-mail">
+            <button type="submit" class="subscribe-btn">
+              Підписатися
+              <svg height="24" width="24">
+                <use href="./img/symbol-defs.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+          </li>
+        </ul>
         </div> 
       </footer>
 </body>

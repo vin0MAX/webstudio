@@ -14,6 +14,9 @@
     padding: 0 15px;
     margin: 0 auto;
   }
+  html{
+    scroll-behavior: smooth;
+  }
   body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -41,12 +44,30 @@
      color: var(--accent-color);
   }
   .navigavion-link{
+    position: relative;
     letter-spacing: 0.28px;
     font-weight: 500;
     color: var(--text-color);
   }
-  .navigavion-link:hover,
-  .navigavion-link:focus{
+  .navigavion-link.current{
+    color: var(--accent-color);
+  }
+  .navigavion-link.current::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;  
+    border-radius:2px;     
+    position: absolute;
+    left: 0;
+    bottom: -35px;  
+    background-color:var(--accent-color);
+  }
+  .navigavion-link.current:hover::after{
+    opacity: 1;
+  }
+  .navigavion-link:focus,
+  .navigavion-link:hover{
     color: var(--accent-color);
   }
   .contakts-link{
