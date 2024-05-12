@@ -248,6 +248,7 @@ label a{
   border-radius: 4px;
   padding-bottom: 94px;
   padding-top: 12px;
+  resize: none;
   width: 448px;
   
 }
